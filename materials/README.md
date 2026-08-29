@@ -10,7 +10,7 @@ AI & Applied Economics.
 | `02-machine-learning-basics.pdf` | ML basics, embeddings, and clustering — Andrea Ciccarone |
 | `03-text-and-image-data.pdf` | Text and image data — Andrea Ciccarone |
 | `05-llms-and-alignment.pdf` | Large language models and alignment — Elliott Ash |
+| `08-training-llms.pdf` | Running LLMs for economic experiments — Felix Drinkall |
 
 Additional lecture PDFs will be added after the instructors release final
 versions.
-
