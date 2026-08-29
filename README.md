@@ -16,3 +16,8 @@ School in AI & Applied Economics.
 Instructor source files, solutions, applications, participant data, and internal
 planning documents are intentionally kept outside this public repository.
 
+## Deployment
+
+`./deploy.sh` performs a checksum dry run, syncs the complete public tree to the
+shared Hetzner host, and verifies the live homepage and syllabus. Git metadata is
+explicitly excluded from the document root.
