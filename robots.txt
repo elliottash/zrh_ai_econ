@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zrh-ai-econ.com/sitemap.xml
+
