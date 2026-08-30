@@ -10,8 +10,11 @@ School in AI & Applied Economics.
 ## Repository layout
 
 - `index.html` and `assets/` contain the static course website.
-- `materials/` contains the public syllabus and final lecture PDFs.
-- `problem-sets/` contains student-facing assignments as they are released.
+- `slides/` contains the public syllabus and final lecture PDFs (handout
+  versions, one page per slide).
+- `notebooks/` contains the companion Jupyter notebooks for the practical
+  sessions.
+- `assignments/` contains student-facing assignments as they are released.
 
 Instructor source files, solutions, applications, participant data, and internal
 planning documents are intentionally kept outside this public repository.

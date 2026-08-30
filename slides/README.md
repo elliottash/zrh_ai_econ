@@ -1,6 +1,6 @@
-# Course materials
+# Lecture slides
 
-These are the current student-facing PDFs for the 2026 Zurich Summer School in
+These are the current student-facing slide PDFs (handout versions, one page per slide) for the 2026 Zurich Summer School in
 AI & Applied Economics.
 
 | File | Session |

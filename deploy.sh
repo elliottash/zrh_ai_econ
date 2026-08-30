@@ -24,5 +24,5 @@ echo "Verifying live website"
 html=$(curl --fail --silent --show-error --max-time 30 https://zrh-ai-econ.com/)
 grep -q '<title>Zurich Summer School in AI &amp; Applied Economics</title>' <<<"$html"
 curl --fail --silent --show-error --head --max-time 30 \
-  https://zrh-ai-econ.com/materials/00-course-syllabus.pdf >/dev/null
+  https://zrh-ai-econ.com/slides/00-course-syllabus.pdf >/dev/null
 echo "Deployment verified"
