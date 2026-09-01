@@ -9,6 +9,7 @@ AI & Applied Economics.
 | `01-course-introduction.pdf` | Course introduction — Elliott Ash |
 | `02-machine-learning-basics.pdf` | ML basics, embeddings, and clustering — Andrea Ciccarone |
 | `03-text-and-image-data.pdf` | Text and image data — Andrea Ciccarone |
+| `04-ml-and-econometrics.pdf` | ML and econometrics — Germain Gauthier |
 
 Additional lecture PDFs will be added after the instructors release final
 versions.
