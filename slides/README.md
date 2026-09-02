@@ -11,6 +11,8 @@ AI & Applied Economics.
 | `03-text-and-image-data.pdf` | Text and image data — Andrea Ciccarone |
 | `04-ml-and-econometrics.pdf` | ML and econometrics — Germain Gauthier |
 | `05-llms-and-alignment.pdf` | LLMs and alignment — Elliott Ash |
+| `06-working-with-ai-agents.pdf` | Working with AI agents — Fabian Roeben |
+| `07-building-research-software-with-ai.pdf` | Building research software with AI — Fabian Roeben |
 
 Additional lecture PDFs will be added after the instructors release final
 versions.
