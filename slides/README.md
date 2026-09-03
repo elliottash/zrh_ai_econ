@@ -13,6 +13,7 @@ AI & Applied Economics.
 | `05-llms-and-alignment.pdf` | LLMs and alignment — Elliott Ash |
 | `06-working-with-ai-agents.pdf` | Working with AI agents — Fabian Roeben |
 | `07-building-research-software-with-ai.pdf` | Building research software with AI — Fabian Roeben |
+| `08-training-llms.pdf` | Running LLMs for economic experiments — Felix Drinkall |
 
 Additional lecture PDFs will be added after the instructors release final
 versions.
