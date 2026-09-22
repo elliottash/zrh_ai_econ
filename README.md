@@ -1,26 +1,30 @@
 # Zurich Summer School in AI & Applied Economics
 
-Public course website and student-facing materials for the 2026 Zurich Summer
-School in AI & Applied Economics.
+Public course website and student materials for the 2026 summer school at ETH Zurich.
 
-- Course website: <https://zrh-ai-econ.com>
-- Course chat: <https://chat.zrh-ai-econ.com>
-- Current syllabus: [Google Doc](https://docs.google.com/document/d/17osu56j6d13mOvw5NK-IEnD2HOxAc5Rw-oLF5scFsA0/edit?tab=t.0)
+- Website: <https://zrh-ai-econ.com>
+- Course chat: <https://summer-chat.zrh-ai-econ.com> (also `/chat` on the course website)
+- Lab website: <https://ai-econ-lab.org>, maintained in [elliottash/ai-econ-lab](https://github.com/elliottash/ai-econ-lab)
 
-## Repository layout
+## Contents
 
-- `index.html` and `assets/` contain the static course website.
-- `slides/` contains the public syllabus and final lecture PDFs (handout
-  versions, one page per slide).
-- `notebooks/` contains the companion Jupyter notebooks for the practical
-  sessions.
-- `assignments/` contains student-facing assignments as they are released.
+- `index.html` and `assets/` — course homepage, schedule, and styling
+- `slides/` — released lecture handouts and syllabus
+- `notebooks/` — student notebooks
+- `assignments/` — public problem set, dataset, and build script
 
-Instructor source files, solutions, applications, participant data, and internal
-planning documents are intentionally kept outside this public repository.
+Private instructor sources remain in the separate teaching repository.
 
-## Deployment
+## Build and deploy
 
-`./deploy.sh` performs a checksum dry run, syncs the complete public tree to the
-shared Hetzner host, and verifies the live homepage and syllabus. Git metadata is
-explicitly excluded from the document root.
+Run `python3 scripts/build_site.py` to validate local links and stage the public site in `build/`.
+Run `./deploy.sh` to build, dry-run the upload, deploy to
+`deploy@138.201.189.28:/opt/zrh-ai-econ/site/`, and check production.
+Only the explicit public files are uploaded. No Node.js build is needed.
+Nginx routing is recorded in `ops/zrh-ai-econ.nginx.conf`.
+
+The summer-school homepage was restored from commit `1649f8c` on 2026-09-22.
+The subsequent uncommitted lab implementation was preserved and moved to its own repository.
+Existing `/summer-school/2026/` links redirect to the course homepage, and former
+lab routes (`/people/`, `/research/`, `/grants/`, `/kb/`) redirect to `ai-econ-lab.org`.
+Existing chat hostnames remain available.
